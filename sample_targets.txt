@@ -1,0 +1,619 @@
+Instrukcja użytkownika FireProtect 2 (Heat/Smoke/CO) Jeweller
+Заглавный вижуал
+FireProtect 2 (Heat/Smoke/CO) Jeweller to bezprzewodowy czujnik pożarowy z wbudowaną syreną.
+Jest przeznaczony do montażu wewnątrz pomieszczeń.
+Wykrywa dym i wzrost temperatury.
+Występuje w dwóch odmianach: z bateriami niewymiennymi (SB w nazwie), które działają do 10 lat, oraz z wymiennymi (RB w nazwie), które działają do 7 lat.
+image18.png
+image18.png
+Lista kompatybilnych hubów i podwajaczy zasięgu jest dostępna tutaj.
+Czujnik działa jako część systemu alarmowego Ajax, komunikując się z hubem za pomocą bezpiecznego protokołu radiowego Jeweller.
+Zasięg łączności radiowej huba wynosi do <x id="2"/>1700 metrów<x id="3"/><x id="4"/> bez przeszkód.
+👉 Kup FireProtect 2 (Heat/Smoke)
+Dostępne są również wersje czujnika z innymi kombinacjami sensorów.
+Wszystkie czujniki pożarowe Ajax są dostępne tutaj.
+Elementy funkcjonalne
+image24.png
+image24.png
+Panel przedni czujnika z przyciskiem Test/Wyciszenie.
+Aby aktywować przycisk, naciśnij środek panelu.
+Uchwyt montażowy SmartBracket.
+Aby zdjąć uchwyt, obróć go w kierunku przeciwnym do ruchu wskazówek zegara.
+Kod QR urządzenia i ID (numer seryjny).
+Służy do połączenia czujnika z systemem alarmowym Ajax.
+Przycisk wykrywający próbę manipulacji.
+Wyzwalany w przypadku próby oderwania czujnika od podłoża lub zdjęcia go z uchwytu montażowego.
+Informacje o certyfikacji czujnika.
+Przycisk zasilania.
+Pierwszy termistor.
+Wykrywa niebezpieczną temperaturę.
+Zielony wskaźnik LED.
+Żółty wskaźnik LED.
+Czerwony wskaźnik LED.
+Syrena.
+Drugi termistor.
+Wykrywa niebezpieczną temperaturę.
+Informacja o terminie przydatności czujnika.
+Pokrywa komory dymowej.
+Zasada działania
+image22.png
+image22.png
+FireProtect 2 (Heat/Smoke/CO) to bezprzewodowy czujnik pożarowy przeznaczony do montażu wewnątrz pomieszczeń.
+Dostępny w dwóch wersjach:
+Z bateriami niewymiennymi.
+Taki czujnik ma w nazwie oznaczenie SB.
+Do 10 lat pracy na baterii niewymiennej.
+Po rozładowaniu baterii czujnik należy wymienić na nowy.
+Z wymiennymi bateriami.
+Taki czujnik ma w nazwie oznaczenie RB.
+Żywotność zainstalowanych fabrycznie baterii wynosi 7 lat.
+Po rozładowaniu baterii można je wymienić na nowe.
+👉 Jak wymienić baterie w FireProtect 2 RB (Heat/Smoke)
+Czujnik jest wyposażony w syrenę (sygnalizator piezoelektryczny) do dźwiękowego powiadamiania o alarmach i zdarzeniach z głośnością do 85 dB (w odległości <x id="1"/>3 m<x id="2"/><x id="3"/> od czujnika).
+Czujnik jest zawsze aktywny i reaguje na pożar 24/7, niezależnie od trybu ochrony systemu.
+FireProtect 2 ma dwa elementy chroniące przed manipulacją.
+Pierwszy z nich wykrywa zdjęcie czujnika z uchwytu montażowego SmartBracket: czujnik reaguje sygnalizacją LED i wysyła powiadomienia do użytkowników w aplikacjach Ajax oraz do stacji monitorowania agencji ochrony.
+Drugi element sygnalizuje zdjęcie pokrywy komory dymowej, która znajduje się pod panelem przednim czujnika.
+Zdjęcie pokrywy komory dymowej jest możliwe po całkowitym demontażu obudowy.
+System wykrywa to zdarzenie jako usterkę.
+Po zdjęciu pokrywy czujnik reaguje sygnałem dźwiękowym, a użytkownicy i agencja ochrony otrzymują powiadomienie o awarii.
+Urządzenia automatyzacji Ajax reagują na alarmy FireProtect 2 i wykonują działania zdefiniowane przez użytkownika za pomocą scenariuszy automatyzacji.
+Na przykład przekaźnik WallSwitch może włączyć system wentylacji i oświetlenie awaryjne w momencie wystąpienia alarmu.
+Działanie bez huba
+FireProtect 2 można używać bez podłączania do huba Ajax.
+Wystarczy zainstalować czujnik zgodnie z niniejszą instrukcją i włączyć go.
+Czujnik działający autonomicznie powiadamia o pożarze za pomocą wbudowanej syreny i sygnalizacji LED, ale nie wysyła powiadomień na smartfon użytkownika, do programu Ajax Translator ani do aplikacji PRO Desktop.
+W takim przypadku funkcja Połączone alarmy czujników pożarowych nie jest dostępna.
+Sensor dymu
+FireProtect 2 wykrywa dym za pomocą bispektralnego sensora optycznego.
+Wewnątrz komory dymowej, niebieskie i podczerwone diody LED sensora emitują światło o różnych długościach fali.
+Technologia ta pozwala czujnikowi określić wielkość lotnych cząstek wewnątrz komory i reagować tylko na dym, ignorując opary i parę wodną.
+Komora dymowa FireProtect 2 jest zabezpieczona przed kurzem, brudem i owadami.
+Nawet jeśli pył dostanie się do środka i osiądzie, nie stwarza to zagrożenia ani nie utrudnia wykrywania pożaru.
+Układ optyczny został zaprojektowany w taki sposób, aby uniemożliwić nielotnym cząsteczkom dostanie się w zasięg jednocześnie niebieskiej i podczerwonej diody LED.
+Sytuacja ta nie powoduje więc fałszywego alarmu.
+Algorytm HazeFlow 2 zapobiega fałszywym alarmom.
+W przypadku wykrycia alarmu algorytm dodatkowo przetwarza dane otrzymane z czujnika i potwierdza alarm.
+Sensor temperatury
+Dwa wbudowane termistory klasy A1 wykrywają gwałtowny wzrost i przekroczenie progu temperatury w FireProtect 2.
+Te termistory tej klasy powiadamiają o alarmach w przypadku wykrycia gwałtownego wzrostu lub utrzymywania się temperatury w zakresie od <x id="1"/>+54°C<x id="2"/><x id="3"/> do <x id="4"/>+65°C.
+Termistory są zamontowane na zewnątrz pod panelem przednim czujnika.
+Umożliwia to szybszą reakcję na zagrożenia niż w przypadku, gdy sensory znajdują się wewnątrz obudowy czujnika.
+FireProtect 2 zgłasza przekroczenie progu temperatury, gdy tylko jej wartość przekroczy <x id="1"/>+64°C<x id="2"/><x id="3"/>.
+Czujnik zgłasza szybki wzrost temperatury, jeśli w ciągu jednej minuty odczyt wzrośnie o <x id="4"/>10°C<x id="5"/><x id="6"/>.
+Jeśli odczyt temperatury gwałtownie wzrośnie o <x id="7"/>20°C<x id="8"/><x id="9"/> lub więcej, czujnik natychmiast włącza alarm.
+Przycisk Test/Wyciszenie
+Przycisk Test/Wyciszenie znajduje się pod panelem przednim czujnika.
+Jest to przycisk mechaniczny.
+Aby go aktywować, naciśnij lekko centralną część panelu przedniego ręką lub odpowiednim przedmiotem, jeśli czujnik znajduje się w trudno dostępnym miejscu.
+Można na przykład użyć kija od szczotki.
+Przycisk pełni kilka funkcji:
+W trybie normalnym uruchamia autotest czujnika.
+W przypadku alarmu wycisza alarm czujnika lub Połączony alarm wszystkich czujników pożarowych w systemie.
+Alarmy połączonych czujników pożarowych
+Wszystkie czujniki pożarowe z linii produktów FireProtect 2 obsługują funkcję połączonych alarmów.
+Funkcja ta aktywuje wbudowane syreny wszystkich czujników pożarowych w systemie, gdy tylko przynajmniej jeden z nich wykryje alarm.
+Syreny czujników FireProtect 2 są uruchamiane w ciągu 20 sekund od wykrycia alarmu.
+FireProtect i FireProtect Plus są aktywowane w odstępie czasu odpytywania czujnika określonego w ustawieniach Jeweller (lub Jeweller/Fibra), ale nie później niż w ciągu 60 sekund.
+Czujniki FireProtect 2 mają różne sygnalizacje dźwiękowe i świetlne typów alarmów, aby ułatwić użytkownikom ich rozróżnienie.
+W przypadku połączonego alarmu wszystkie czujniki FireProtect 2 wskazują dokładnie typ alarmu wykrytego przez czujnik inicjujący.
+Natomiast czujniki FireProtect i FireProtect Plus powiadamiają o wszystkich typach alarmów tym samym dźwiękiem.
+👉 Jak ustawić połączone alarmy czujników pożarowych
+👉 Jak wyciszyć połączone alarmy czujników pożarowych<x id="2"/><x id="3"/>
+Wysyłanie zdarzeń do stacji monitorowania
+System alarmowy Ajax może przesyłać zdarzenia i alarmy do aplikacji monitorującej Ajax PRO Desktop, a także do Centralnej Stacji Monitorowania (CMS) w formatach SurGard (Contact ID), SIA DC-09 (ADM-CID), ADEMCO 685 i innych zastrzeżonych protokołach.
+Lista obsługiwanych protokołów jest dostępna tutaj.
+👉 Do jakich CMS-ów można podłączyć system Ajax 
+Adresowalność urządzeń Ajax pozwala na wysyłanie do PRO Desktop lub do CMS nie tylko zdarzeń, ale także typu urządzenia, przypisanej mu nazwy, wirtualnego pomieszczenia oraz grupy ochrony.
+Lista przekazywanych parametrów może się różnić w zależności od CMS i wybranego protokołu komunikacyjnego.
+ID i numer obwodu (strefy) czujnika są dostępne w Stanach czujnika.
+Dodawanie do systemu
+Przed dodaniem urządzenia
+Zainstaluj aplikację Ajax.
+Utwórz konto, jeśli jeszcze go nie masz.
+Dodaj do swojej aplikacji hub zgodny z czujnikiem.
+Skonfiguruj wymagane ustawienia i utwórz co najmniej jedno wirtualne pomieszczenie.
+Upewnij się, że hub jest włączony i ma dostęp do internetu przez sieć Ethernet, Wi-Fi i/lub sieć komórkową.
+Można to zrobić w aplikacji Ajax lub sprawdzając wskaźnik LED huba — zapala się na biało lub zielono.
+Upewnij się, że hub nie aktualizuje się i jest rozbrojony, sprawdzając jego status w aplikacji Ajax.
+Tylko PRO lub użytkownik z uprawnieniami do konfigurowania systemu może podłączyć urządzenie do huba.
+Aby połączyć się z hubem, czujnik powinien znajdować się w obszarze zasięgu sieci radiowej huba.
+Aby umożliwić działanie przez podwajacz zasięgu sygnału radiowego, najpierw podłącz czujnik do huba, a następnie do podwajacza zasięgu.
+Możesz to zrobić w ustawieniach podwajacza zasięgu w aplikacjach Ajax.
+Jak podłączyć FireProtect 2 do huba
+Otwórz aplikację Ajax.
+Wybierz hub, jeśli jest ich kilka lub jeśli używasz aplikacji Ajax PRO.
+Przejdź do karty Urządzenia<x id="2"/>.
+Naciśnij Dodaj urządzenie.
+image5.png
+image5.png
+Wprowadź nazwę urządzenia.
+Zeskanuj kod QR lub wprowadź identyfikator ręcznie.
+Kod QR znajduje się na tylnej części obudowy (pod uchwytem montażowym) oraz na opakowaniu urządzenia.
+Identyfikator urządzenia można znaleźć pod kodem QR.
+Wybierz wirtualne pomieszczenie i grupę ochrony (jeśli włączony jest tryb grupowy).
+Kliknij Dodaj; rozpocznie się odliczanie.
+Jeśli do huba dodano już maksymalną liczbę urządzeń, to przy próbie dodania urządzenia użytkownik otrzyma w aplikacji Ajax powiadomienie o przekroczeniu limitu urządzeń.
+Liczba urządzeń podłączonych do huba zależy od modelu centrali.
+Włącz czujnik, przytrzymując przycisk zasilania przez 3 sekundy.
+Żądanie połączenia z hubem jest wysyłane tylko wtedy, gdy czujnik jest włączony.
+Jeśli czujnik nie połączy się z hubem, spróbuj ponownie za 5 sekund.
+Czujnik nie może połączyć się z hubem, jeśli działają one na różnych częstotliwościach radiowych.
+Zakres częstotliwości radiowej urządzeń może się różnić w zależności od regionu sprzedaży.
+W celu uzyskania informacji na temat zakresu częstotliwości pracy urządzeń należy skontaktować się ze wsparciem technicznym.
+Po podłączeniu FireProtect 2 pojawi się na liście urządzeń w aplikacji Ajax.
+Aktualizacja stanu urządzenia zależy od interwału odpytywania określonego w ustawieniach Jeweller lub Jeweller/Fibra.
+Domyślną wartością jest 36 sekund.
+FireProtect 2 działa tylko z jednym hubem.
+Po podłączeniu do nowego huba czujnik przestaje wysyłać polecenia do starego.
+Po dodaniu do nowego huba FireProtect 2 nie jest usuwany z listy urządzeń starego huba.
+Trzeba to zrobić ręcznie w aplikacjach Ajax.
+Wskazanie
+Демо индикации
+image20.png
+image20.png
+LEDy i wbudowana w czujnik syrena mogą powiadamiać o alarmach i niektórych stanach czujnika.
+Sygnalizacja LED
+Dźwięk
+wskazanie
+Zdarzenie
+Uwagi
+Czerwona dioda LED miga ciągle..
+Dźwięki syreny  są zsynchronizowane ze wskazaniami LED.
+Alarm spowodowany przez:
+dym;
+gwałtowny wzrost temperatury;
+przekroczenie progu temperatury.
+Czujnik przestaje alarmować, gdy tylko zostaną wyeliminowane źródła alarmu.
+Ponadto można wyciszyć alarm, naciskając przycisk Test/Wyciszenie lub w aplikacji Ajax.
+Sygnalizacja LED i dźwiękowa zostają wznowione, jeżeli źródło alarmu jest nadal wykrywane po upływie czasu wyciszenia (10 minut).
+Czerwona dioda LED miga co 8 sekund..
+Nie.
+Wyciszony alarm.
+Czujnik przestaje alarmować, gdy tylko zostaną wyeliminowane źródła alarmu.
+Czerwona dioda LED miga 2 razy..
+Nie.
+Powroty systemu po alarmie.
+Jeśli źródło alarmu zostanie usunięte, czujnik jest przywracany automatycznie.
+Żółta dioda LED zapala się na 1 sekundę.
+Nie.
+Alarm manipulacji.
+Czujnik zdjęty z uchwytu montażowego SmartBracket.
+Zielona dioda LED zapala się na 1 sekundę.
+Nie.
+Czujnik jest zainstalowany w uchwycie montażowym SmartBracket.
+Zapala się po wyzwoleniu zabezpieczenia przed manipulacją.
+Zielona, żółta i czerwona dioda LED zapalają się kolejno, a następnie gasną.
+Nie.
+Włączenie czujnika.
+Aby włączyć czujnik, przytrzymaj przycisk zasilania przez 1 sekundę.
+Zielona, żółta i czerwona dioda LED zapalają się jednocześnie, a następnie gasną.
+Nie.
+Wyłączenie czujnika.
+Aby wyłączyć czujnik, przytrzymaj przycisk zasilania przez 2 sekundy.
+Zielona dioda LED świeci się stale.
+Nie.
+Połączenie z hubem w toku.
+Sygnalizacja wyłącza się po podłączeniu czujnika do huba.
+Zielona dioda LED miga 6 razy..
+Nie.
+Czujnik został usunięty z huba.
+Sygnalizacja włącza się, gdy czujnik odbierze informację, że został usunięty z huba.
+Zielona dioda LED miga raz na minutę..
+Nie.
+Zasilanie czujnika działa prawidłowo.
+Wskazanie występuje, gdy czujnik jest włączony a status sabotażu to OK (czujnik jest zainstalowany w uchwycie montażowym SmartBracket).
+Nie ma żadnej sygnalizacji, gdy czujnik przejdzie w tryb testu siły sygnału Jeweller.
+Żólta dioda LED miga 2 razy co minutę.
+Syrena rozbrzmiewa razem z sygnalizacją LED.
+Wykryto awarię.
+Wszystkie usterki są wyświetlane w stanach czujnika w aplikacjach Ajax.
+Pola z usterkami są zaznaczone na czerwono.
+Czujnik wymaga naprawy; skontaktuj się z naszym wsparciem technicznym.
+Żółta dioda LED miga raz na minutę..
+Syrena rozbrzmiewa co minutę razem z sygnalizacją LED.
+Niski stan naładowania akumulatora huba.
+Baterie można wymienić tylko w czujniku z wymiennymi bateriami (oznaczenie RB w nazwie).
+Czujnik z bateriami niewymiennymi (z oznaczeniem SB w nazwie) po wyczerpaniu baterii powinien być wymieniony na nowy.
+Jak wymienić baterie w FireProtect 2 RB (Heat/Smoke)
+Żółta dioda LED miga stale.
+Nie.
+Baterie są całkowicie rozładowane.
+Baterie można wymienić tylko w czujniku z wymiennymi bateriami (oznaczenie RB w nazwie).
+Czujnik z bateriami niewymiennymi (z oznaczeniem SB w nazwie) po wyczerpaniu baterii powinien być wymieniony na nowy.
+Jak wymienić baterie w FireProtect 2 RB (Heat/Smoke)
+Czerwona dioda LED miga 5 razy, a następnie jeszcze 3 razy.
+Syrena emituje 5 sygnałów dźwiękowych, a następniejeszcze 3, ale dłuższe.
+Trwa wykonywanie samodzielnego testu.
+Test można rozpocząć, naciskając Test/Wycisz lub w aplikacji Ajax w ustawieniach detektora.
+Żółta dioda LED miga 3 razy co minutę.
+Syrena emituje 3 sygnały dźwiękowe co minutę.
+Upłynął okres eksploatacji urządzenia.
+Urządzenie jest używane od ponad 10 lat.
+Czułość jego sensorów mogła się zmniejszyć.
+Zalecamy wymianę tego czujnika na nowy.
+Testowanie czujnika
+Test działania
+Test pozwala sprawdzić stan sensorów czujnika.
+Możesz uruchomić go na dwa sposoby: naciskając przycisk czujnika Test/Wyciszenie lub w aplikacjach Ajax.
+Jeśli czujnik jest w stanie alarmu, autotest nie jest dostępny.
+Aby uruchomić test za pomocą przycisku Test/Wyciszenie znajdującego się na środku panelu przedniego, należy go nacisnąć i przytrzymać przez 1,5 sekundy.
+Aby uruchomić test w aplikacji Ajax:
+Otwórz aplikację Ajax.
+Wybierz hub, jeśli jest ich kilka lub jeśli używasz aplikacji Ajax PRO.
+Przejdź do menu Urządzenia<x id="2"/>.
+image5.png
+image5.png
+Wybierz FireProtect 2 (Heat/Smoke/CO).
+Przejdź do ustawień, klikając ikonę kółka zębatego <x id="2"/>.
+image23.png
+image23.png
+Kliknij pole Autotest.
+Po rozpoczęciu testu czerwona dioda czujnika miga 5 razy, a następnie miga jeszcze 3 razy, ale wolniej.
+Syrena czujnika rozbrzmiewa razem z sygnalizacją LED.
+Po zakończeniu testu użytkownicy otrzymują powiadomienie o stanie czujnika w aplikacjach Ajax.
+Czujnik powiadamia również o wyniku testu dźwiękiem i sygnalizacją LED.
+Jeżeli test się nie powiódł i wykryto awarię, 3 sekundy po rozpoczęciu testu, czujnik wskazuje wykrycie awarii: żółta dioda LED miga dwukrotnie, a syrena emituje dwa sygnały dźwiękowe zsynchronizowane ze wskazaniami LED.
+Autotest nie rozpoczyna się natychmiast, ale nie później niż 30 sekund po naciśnięciu przycisku Test/Wyciszenie lub uruchomieniu z aplikacji Ajax.
+Jeżeli podczas testu nie nie było wskazań LED ani dźwiękowych to nie wolno korzystać z czujnika.
+Skontaktuj się ze Wsparciem technicznym.
+Testowanie w miejscu instalacji
+System alarmowy Ajax udostępnia kilka testów pozwalających wybrać odpowiednie miejsce do instalacji urządzeń.
+Dla FireProtect 2 dostępny jest test siły sygnału Jeweller.
+Test określa siłę i stabilność sygnału w planowanej lokalizacji urządzenia.
+Aby uruchomić test w aplikacji Ajax:
+Wybierz hub, jeśli jest ich kilka lub jeśli używasz aplikacji Ajax PRO.
+Przejdź do menu Urządzenia<x id="2"/>.
+image5.png
+image5.png
+Wybierz FireProtect 2 (Heat/Smoke/CO).
+Przejdź do ustawień, klikając ikonę kółka zębatego <x id="2"/>.
+image23.png
+image23.png
+Uruchom Test siły sygnału Jewellera.
+Przeprowadź test, postępując zgodnie z podpowiedziami aplikacji.
+Test nie rozpoczyna się natychmiast, ale czas oczekiwania nie przekracza czasu trwania jednego interwału odpytywania czujnika.
+Domyślna wartość to 36 sekund.
+Interwał odpytywania czujnika można zmienić w menu Jeweller lub Jeweller/Fibra w ustawieniach huba.
+Ikony
+Ikony przedstawiają niektóre stany czujnika.
+Są wyświetlone w aplikacjach Ajax na karcie Urządzenia<x id="2"/>.
+image5.png
+image5.png
+Ikona
+Znaczenie
+image13.png
+image13.png
+Siła sygnału Jeweller między czujnikiem a hubem lub podwajaczem zasięgu sygnału radiowego.
+Zalecana wartość to dwie lub trzy kreski.
+Dowiedz się więcej
+image17.png
+image17.png
+Poziom naładowania baterii urządzenia.
+Dowiedz się więcej
+image19.png
+image19.png
+Włączona jest funkcja Połączone alarmy czujników pożarowych.
+Dowiedz się więcej
+image8.png
+image8.png
+Czujnik działa w trybie Zawsze aktywny.
+Ikona jest wyświetlana stale.
+FireProtect 2 jest zawsze aktywny i reaguje na pożar 24/7, niezależnie od trybu ochrony systemu.
+Dowiedz się więcej
+image10.png
+image10.png
+Czujnik działa poprzez podwajacz zasięgu sygnału radiowego.
+image7.png
+image7.png
+Czujnik jest tymczasowo wyłączony.
+Dowiedz się więcej
+image11.png
+image11.png
+Czujnik wykrył gwałtowny wzrost temperatury.
+image14.png
+image14.png
+Czujnik wykrył przekroczenie progu temperatury.
+image16.png
+image16.png
+Czujnik wykrył dym.
+image21.png
+image21.png
+Czujnik został wyjęty z uchwytu montażowego SmartBracket lub w inny sposób naruszono integralność obudowy.
+Sprawdź mocowanie czujnika.
+image1.png
+image1.png
+Syrena czujnika odtwarza dźwięk alarmu.
+image3.png
+image3.png
+Upłynął okres eksploatacji czujnika.
+Urządzenie jest używane od ponad 10 lat.
+Czułość jego sensorów mogła się zmniejszyć.
+Zalecamy wymianę tego czujnika na nowy.
+image4.png
+image4.png
+Wykryto awarię.
+Lista usterek jest dostępna w stanach czujnika.
+image9.png
+image9.png
+Czujnik ma czasowo wyłączone wyzwalanie zdarzeń ochrony przed manipulacją.
+Dowiedz się więcej
+Stany
+Stany zawierają informacje o urządzeniu i jego parametrach pracy.
+Stany FireProtect 2 (Heat/Smoke/CO) są widoczne w aplikacjach Ajax.
+Aby uzyskać do nich dostęp:
+Otwórz aplikację Ajax.
+Wybierz hub, jeśli jest ich kilka lub jeśli używasz aplikacji Ajax PRO.
+Przejdź do karty Urządzenia<x id="2"/>.
+image5.png
+image5.png
+Wybierz urządzenie z listy.
+Parametr
+Znaczenie
+Temperatura
+Temperatura powietrza w pomieszczeniu, w którym zainstalowano FireProtect 2.
+Mierzona w stopniach Celsjusza lub Fahrenheita w zależności od ustawień aplikacji.
+W stanie normalnym wartość temperatury jest wyświetlana w kolorze czarnym.
+Po wykryciu wzrostu temperatury lub przekroczenia progu pole podświetla się na czerwono i pojawia się tekst Wysoka temperatura.
+Siła sygnału Jewellera
+Siła sygnału Jeweller między FireProtect 2 a hubem lub podwajaczem zasięgu sygnału radiowego.
+Zalecana wartość to dwie lub trzy kreski.
+Jeweller to protokół używany do przesyłania zdarzeń i alarmów FireProtect 2.
+Połączenie przez Jeweller
+Status połączenia pomiędzy FireProtect 2 a hubem lub podwajaczem zasięgu przez protokół Jeweller:
+Online— czujnik jest podłączony do huba lub podwajacza zasięgu.
+Stan normalny.
+Offline — brak połączenia  pomiędzy czujnikiem a hubem lub podwajaczem zasięgu.
+Sprawdź połączenie z czujnikiem.
+Stan naładowania akumulatora
+Poziom naładowania baterii urządzenia.
+OK — baterie czujnika są wystarczająco naładowane.
+Stan normalny.
+Rozładowana bateria — baterie czujnika są rozładowane.
+Gdy baterie są rozładowane użytkownicy i CMS otrzymują powiadomienie.
+Po wysłaniu powiadomienia o niskim poziomie baterii czujnik może pracować jeszcze przez miesiąc w normalnych warunkach.
+W przypadku alarmu naładowanie baterii wystarcza do zapewnienia 4 minut działania sygnalizacji dźwiękowej i LED.
+Jak wyświetlany jest poziom naładowania baterii
+Kalkulator żywotności baterii
+Baterie można wymienić tylko w czujniku z wymiennymi bateriami (oznaczenie RB w nazwie).
+Czujnik z bateriami niewymiennymi (oznaczenie SB w nazwie) po wyczerpaniu baterii powinien być wymieniony na nowy.
+Jak wymienić baterie w FireProtect 2 RB (Heat/Smoke)
+Obudowa
+Stan zabezpieczenia czujnika przed manipulacją, które reaguje na oderwanie urządzenia od powierzchni lub otwarcie obudowy:
+Otwarta — Czujnik został wyjęty z uchwytu montażowego SmartBracket lub w inny sposób naruszono integralność obudowy.
+Sprawdź mocowanie czujnika.
+Zamknięty: czujnik jest zainstalowany w uchwycie montażowym SmartBracket.
+Integralność obudowy urządzenia i uchwytu montażowego nie jest zagrożona.
+Stan normalny.
+Dowiedz się więcej
+Dym
+Status sensora dymu:
+Czysty — stan normalny, czujnik nie wykrywa dymu.
+Alarm — czujnik wykrywa dym.
+W przypadku wykrycia dymu pole tekstowe jest podświetlone na czerwono.
+Dowiedz się więcej
+Przekroczono próg temperatury
+Stan alarmu przy przekroczeniu progu temperatury:
+Nie — stan normalny, czujnik nie wykrywa przekroczenia progu temperatury.
+Alarm — czujnik wykrył przekroczenie progu temperatury.
+W przypadku wykrycia przekroczenia progu temperatury pole tekstowe podświetla się na czerwono.
+Dowiedz się więcej
+Gwałtowny wzrost temperatury
+Alarm gwałtownego wzrostu temperatury:
+Nie — stan normalny, czujnik nie wykrywa gwałtownego wzrostu temperatury.
+Alarm — czujnik wykrył gwałtowny wzrost temperatury.
+W przypadku wykrycia gwałtownego wzrostu temperatury pole tekstowe jest podświetlone na czerwono.
+Dowiedz się więcej
+Tymczasowe wyłączenie urządzenia
+Pokazuje status funkcji czasowej dezaktywacji urządzenia:
+Nie: urządzenie działa w trybie normalnym.
+Tylko obudowa — powiadomienia z elementu zapobiegającego manipulacji są wyłączone.
+Całkowicie — czujnik nie wykonuje poleceń systemowych, nie uczestniczy w scenariuszach automatyzacji, nie wysyła powiadomień o alarmach, usterkach i innych zdarzeniach do systemu CMS i użytkowników systemu.
+W takim przypadku czujnik będzie nadal pracować autonomicznie i sygnalizować alarmy za pomocą wbudowanej syreny.
+Dowiedz się więcej
+Oprogramowanie
+Wersja oprogramowania sprzętowego FireProtect 2.
+ID urządzenia
+ID (numer seryjny) FireProtect 2.
+Widoczny również na obudowie czujnik (pod uchwytem montażowym) pod kodem QR oraz na opakowaniu.
+Nr urządzenia
+Numer obwodu (strefy) FireProtect 2.
+Zdarzenia są wysyłane do CMS z tym numerem.
+Ustawienia
+Aby zmienić ustawienia FireProtect 2 (Heat/Smoke/CO) w aplikacji Ajax:
+Otwórz aplikację Ajax.
+Wybierz hub, jeśli jest ich kilka lub jeśli używasz aplikacji Ajax PRO.
+Przejdź do karty Urządzenia<x id="2"/>.
+image5.png
+image5.png
+Wybierz urządzenie z listy.
+Przejdź do Ustawień, klikając ikonę kółka zębatego<x id="2"/>.
+image23.png
+image23.png
+Ustaw wymagane ustawienia.
+Kliknij Wróć, aby zapisać nowe ustawienia.
+Ustawienia
+Znaczenie
+Nazwa
+Nazwa czujnika.
+Wyświetlana na liście wszystkich urządzeń huba, w SMS-ach i powiadomieniach o zdarzeniach.
+Aby zmienić nazwę, kliknij pole tekstowe.
+Nazwa może zawierać do 12 znaków cyrylicy lub do 24 znaków łacińskich
+Pomieszczenie
+Wybór wirtualnego pomieszczenia, do którego przypisany jest FireProtect 2.
+Nazwa pomieszczenia jest wyświetlana w treści SMS-ów i w powiadomieniach o zdarzeniach.
+Kliknij to pole, aby zmienić pomieszczenie.
+Aktywacja syreny
+Jeśli przekroczono próg temperatury
+Gdy ta opcja jest włączona, podłączone do systemu syreny Ajax są uruchamiane w momencie wykrycia przez czujnik przekroczenia progu temperatury.
+Po wykryciu szybkiego wzrostu temperatury
+Gdy ta opcja jest włączona, podłączone do systemu syreny Ajax są uruchamiane w momencie wykrycia przez czujnik gwałtownego wzrostu temperatury.
+Po wykryciu dymu
+Gdy ta opcja jest włączona, podłączone do systemu syreny Ajax są uruchamiane w momencie wykrycia przez czujnik dymu.
+Test siły sygnału Jewellera
+Przełączenie czujnika w tryb testu siły sygnału Jeweller.
+Test pomaga określić optymalne miejsce instalacji FireProtect 2.
+Test pokazuje poziom sygnału pomiędzy czujnikiem a hubem lub podwajaczem zasięgu za pośrednictwem protokołu bezprzewodowej transmisji danych Jeweller.
+Zalecana wartość to dwie lub trzy kreski.
+Dowiedz się więcej
+Samodzielny test urządzenia
+Uruchamia autotest czujnika.
+Dowiedz się więcej
+Instrukcja użytkownika
+Otwiera instrukcję użytkownika FireProtect 2 w aplikacji Ajax.
+Tymczasowe wyłączenie urządzenia
+Umożliwia użytkownikowi wyłączenie urządzenia bez usuwania go z systemu.
+Dostępne są trzy opcje:
+Nie: urządzenie działa w trybie normalnym.
+Tylko obudowa — powiadomienia z elementu zapobiegającego manipulacji są wyłączone.
+Całkowicie — czujnik nie wykonuje poleceń systemowych, nie uczestniczy w scenariuszach automatyzacji, nie wysyła powiadomień o alarmach, usterkach i innych zdarzeniach do systemu CMS i użytkowników systemu.
+W takim przypadku czujnik będzie nadal pracować autonomicznie i sygnalizować alarmy za pomocą wbudowanej syreny.
+Dowiedz się więcej
+Usuń urządzenie
+Usuwa sparowanie FireProtect 2 z hubem i jego ustawienia.
+Wybór miejsca instalacji
+Czujnik przeznaczony jest wyłącznie do montażu wewnątrz pomieszczeń.
+Obszar zasięgu jednego czujnika FireProtect 2 (Heat/Smoke/CO) wynosi <x id="1"/>50 do 60 m2<x id="3"/><x id="4"/>, w zależności od rodzaju pomieszczenia.
+Czujniki powinny być zainstalowane we wszystkich pomieszczeniach.
+Czujnik umieszcza się na środku sufitu w odległości <x id="1"/>30 cm<x id="2"/><x id="3"/> od opraw oświetleniowych, żyrandoli lub innych elementów dekoracyjnych, które mogą zakłócić wykrywanie alarmu.
+Jeśli na suficie są belki wystające na  <x id="1"/>30 cm<x id="2"/><x id="3"/> lub więcej, czujniki należy instalować w każdym odstępie między nimi.
+Jeżeli belki wystają o mniej niż <x id="4"/>30 cm<x id="5"/><x id="6"/>, dopuszcza się montaż na belce w centralnej części sufitu.
+W przedpokojach lub wąskich korytarzach czujniki powinny być instalowane w odległości nie większej niż <x id="1"/>7,5 m<x id="2"/><x id="3"/> od siebie.
+Jeśli sufit jest nachylony, czujnik instaluje się w odległości <x id="1"/>60 cm<x id="2"/><x id="3"/> od górnego punktu sufitu.
+Aby wybrać miejsce montażu, należy narysować linię prostą w dół od szczytu sufitu.
+Następnie narysować linię prostopadłą od tej linii do pochyłej części sufitu.
+Czujnik instaluje się w tym miejscu.
+image12.png
+image12.png
+Nie zalecamy montażu czujnika na ścianie.
+Ten sposób instalacji jest dopuszczalny, jeśli blisko rozmieszczone belki lub inne przeszkody utrudniają montaż czujnika.
+Montaż na ścianie jest możliwy tylko wtedy, gdy czujnik zostanie umieszczony w odległości <x id="1"/>15–30 cm<x id="2"/><x id="3"/> pod sufitem, ale nad otworami drzwiowymi.
+Przy wyborze lokalizacji czujnika należy wziąć pod uwagę parametry wpływające na jego działanie:
+Poziom sygnału Jewellera.
+Odległość między czujnikiem a hubem.
+Obecność przeszkód dla transmisji sygnału radiowego: ściany, stropy, duże obiekty znajdujące się w pomieszczeniu.
+Podczas projektowania systemu alarmowego Ajax dla obiektu warto stosować się do zaleceń dotyczących rozmieszczenia.
+System alarmowy musi być zaprojektowany i zainstalowany przez specjalistów.
+Lista autoryzowanych partnerów Ajax jest dostępna tutaj.
+Poziom sygnału
+Test siły sygnału Jeweller jest określany na podstawie stosunku liczby niedostarczonych/uszkodzonych pakietów danych do wszystkich wymienianych między hubem a czujnikiem w określonym czasie.
+Poziom sygnału jest wskazywany przez ikonę <x id="1"/>na karcie Urządzenia<x id="3"/>:
+image15.png
+image15.png
+image6.png
+image6.png
+Trzy kreski — doskonały poziom sygnału.
+Dwie kreski — dobry poziom sygnału.
+Jedna kreska — niski poziom sygnału; nie gwarantuje stabilnego działania.
+Przekreślona ikona — brak sygnału; stabilna praca nie jest gwarantowana.
+Sprawdź poziom sygnału Jeweller w miejscu instalacji.
+Jeśli poziom sygnału jest niski (jedna lub zero kresek), nie można zagwarantować stabilnego działania urządzenia.
+W takim przypadku należy przenieść urządzenie.
+Zmiana położenia nawet o <x id="1"/>20 cm<x id="2"/><x id="3"/> może znacznie poprawić odbiór sygnału.
+Jeśli poziom sygnału jest nadal niski lub niestabilny po zmianie położenia, użyj podwajacza zasięgu sygnału radiowego.
+Nie instaluj czujnika:
+Na zewnątrz.
+Może to doprowadzić do awarii czujnika.
+W miejscach, gdzie poziom sygnału Jeweller jest niski lub niestabilny.
+Może to spowodować utratę połączenia.
+W pomieszczeniach o temperaturze i wilgotności przekraczających dopuszczalne granice.
+Może to spowodować uszkodzenie czujnika.
+W miejscach z szybką cyrkulacją powietrza.
+Na przykład w pobliżu wentylatorów, otwartych okien lub drzwi.
+Może to zakłócać wykrywanie pożaru.
+Naprzeciwko obiektów, których temperatura nagle się zmienia.
+Na przykład przy grzejnikach elektrycznych lub gazowych.
+Może to prowadzić do fałszywych alarmów.
+W rogach pomieszczenia.
+Może to zakłócać wykrywanie pożaru.
+W łazienkach, pod prysznicem lub w innych miejscach, gdzie temperatura szybko się zmienia.
+Może to prowadzić do fałszywych alarmów.
+W pomieszczeniach, w których wytwarzanie gazów/oparów/dymu jest częścią procesu operacyjnego.
+Na przykład w garażu, gdzie istnieje możliwość wywołania alarmu czujnika przez spaliny samochodowe.
+Do takich pomieszczeń zalecamy stosowanie czujnika bez sensora dymu: FireProtect 2 (Heat/CO).
+W miejscach mocno zapylonych lub z dużą ilością owadów.
+Owady, kurz i inne zanieczyszczenia mogą osadzać się na pokrywie komory dymowej i uniemożliwiać wykrywanie pożaru.
+W pobliżu opraw oświetleniowych, dekoracji i innych elementów wnętrza, które mogą zakłócać cyrkulację powietrza w pomieszczeniu.
+Może to zakłócać wykrywanie pożaru.
+Na powierzchniach, które są zwykle cieplejsze lub zimniejsze niż reszta pomieszczenia.
+Na przykład pułapki dachowe.
+Wahania temperatury mogą zakłócać wykrywanie pożaru.
+Na dużej wysokości lub w trudno dostępnym miejscu.
+Dostęp do przycisku Test/Mute jest wymagany do wyciszenia alarmu i przetestowania czujnika, jeśli jest on używany bez podłączenia do huba.
+Instalacja
+Upewnij się, że wybrane miejsce instalacji jest optymalne i zgodne z wymaganiami niniejszej instrukcji.
+Aby zainstalować czujnik:
+Zdejmij uchwyt montażowy SmartBracket z czujnika.
+Aby zdjąć uchwyt, obróć go w kierunku przeciwnym do ruchu wskazówek zegara.
+Zamocuj uchwyt SmartBracket do powierzchni za pomocą dwustronnej taśmy klejącej lub innych tymczasowych elementów mocujących.
+Na uchwycie montażowym znajduje się znak UP (góra), który wskazuje na prawidłowe położenie.
+Użyj dwustronnej taśmy klejącej tylko do tymczasowego zamocowania.
+Urządzenie przymocowane za pomocą taśmy klejącej może w każdej chwili odkleić się od powierzchni, co spowoduje uszkodzenie urządzenia w przypadku upadku.
+Uruchom Test siły sygnału Jeweller.
+Zalecana wartość to dwie lub trzy kreski.
+Jeśli poziom sygnału to jedna kreska lub mniej, nie można zagwarantować stabilnego działania czujnika.
+Rozważ zmianę lokalizacji urządzenia, gdyż zmiana położenia o zaledwie <x id="4"/>20 cm<x id="5"/><x id="6"/> może znacząco poprawić poziom sygnału.
+Jeśli poziom sygnału jest nadal niski lub niestabilny po zmianie położenia, użyj podwajacza zasięgu sygnału radiowego.
+Zdejmij czujnik z uchwytu montażowego.
+Przytwierdź uchwyt SmartBracket za pomocą dołączonych wkrętów, wykorzystując wszystkie punkty mocowania.
+W przypadku stosowania innych elementów łączących należy upewnić się, że nie uszkodzą one ani nie zdeformują uchwytu montażowego.
+Umieść czujnik w uchwycie montażowym SmartBracket.
+W razie potrzeby wyreguluj położenie czujnika.
+Po zakończeniu montażu należy wykonać autotest czujnika.
+Awarie
+Скриншот, где выделены неисправности
+image2.png
+image2.png
+W przypadku wykrycia usterki FireProtect 2 (na przykład brak połączenia z hubem), licznik awarii jest wyświetlany w polu urządzenia w aplikacjach Ajax.
+Wszystkie usterki są wyświetlane w sekcji Stany czujnika.
+Pola z usterkami są zaznaczone na czerwono.
+Urządzenie może zgłaszać awarie do stacji monitorowania, a także informować użytkowników za pomocą powiadomień push i SMS-ów.
+Usterki FireProtect 2 (Heat/Smoke/CO)
+Brak połączenia z hubem lub podwajaczem zasięgu sygnału radiowego.
+Obudowa czujnika jest otwarta.
+Niski stan naładowania akumulatora huba.
+Upłynął okres eksploatacji urządzenia.
+Awaria sprzętowa (uszkodzenie jednego lub więcej sensorów czujnika).
+Konserwacja
+Czujnik ma system autotestu i nie wymaga interwencji użytkownika ani instalatora.
+Komora dymowa jest zabezpieczona przed kurzem i owadami, więc nie ma potrzeby jej czyszczenia.
+Zalecamy regularne wykonywanie samodzielnych testów, aby zaznajomić ludzi z dźwiękami alarmu i wskazaniami LED.
+Czyść na bieżąco obudowę czujnika z kurzu, pajęczyn i innych zanieczyszczeń.
+Używaj miękkiej, suchej ściereczki, odpowiedniej do pielęgnacji sprzętu.
+Nie należy używać żadnych substancji zawierających alkohol, aceton, benzynę i inne aktywne rozpuszczalniki.
+Okres eksploatacji czujnika wynosi 10 lat.
+Po tym okresie czułość sensorów maleje.
+Zalecamy wymianę czujnika na nowy w celu zapewnienia nieprzerwanej ochrony przeciwpożarowej w obiekcie.
+Wersja czujnika z wymiennymi bateriami (oznaczenie RB w nazwie) działa na fabrycznie zainstalowanych bateriach do 7 lat.
+Po rozładowaniu baterii można je wymienić na nowe.
+👉 Jak wymienić baterie w FireProtect 2 RB (Heat/Smoke)
+Czujnik z bateriami niewymiennymi (oznaczenie SB w nazwie) po wyczerpaniu baterii powinien być wymieniony na nowy.
+Upewnij się, że baterie są zainstalowane z prawidłową polaryzacją.
+Polaryzacja jest oznaczona wewnątrz obudowy.
+Wykonaj autotest za pomocą aplikacji Ajax lub poprzez naciśnięcie przycisku Test/Wyciszenie po wymianie baterii w celu sprawdzenia poprawności działania czujnika.
+👉 Kup FireProtect 2 SB (Heat/Smoke)
+Dane techniczne
+👉 Wszystkie dane techniczne FireProtect 2 (Heat/Smoke)
+👉 Zgodność z normami
+Pełny zestaw
+Do FireProtect 2 RB (Heat/Smoke/CO)
+FireProtect 2 RB (Heat/Smoke/CO) Jeweller
+Uchwyt montażowy SmartBracket
+Zestaw instalacyjny
+2 x baterie CR123A (w urządzeniu)
+Krótka instrukcja
+Do FireProtect 2 SB (Heat/Smoke/CO)
+FireProtect 2 SB (Heat/Smoke/CO) Jeweller
+Uchwyt montażowy SmartBracket
+Zestaw instalacyjny
+Krótka instrukcja
+Gwarancja
+Gwarancja dla produktów spółki z ograniczoną odpowiedzialnością „Ajax Systems Manufacturing” jest ważna 2 lata po zakupie.
+Jeśli urządzenie nie działa prawidłowo, zalecamy najpierw skontaktować się z działem wsparcia technicznego Ajax.
+W większości przypadków problemy techniczne można rozwiązać zdalnie.
+👉 Zobowiązania gwarancyjne
+👉 Umowa użytkownika
+Wsparcie techniczne
+e-mail
+Telegram
+Numer telefonu: 0 (800) 331 911
